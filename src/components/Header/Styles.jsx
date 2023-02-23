@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const HeaderSection = styled.header`
+    width: 100%;
     background-color: #0d0d0d;
     height: 12.5rem;
     line-height: 3rem;
