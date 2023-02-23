@@ -1,4 +1,5 @@
 import Search from "./Styles"
+import { PlusCircle } from "phosphor-react";
 
 function SearchArea(){
     return(
@@ -11,7 +12,10 @@ function SearchArea(){
                 name="search" 
                 placeholder="Adicione uma nova tarefa"
             />
-            <button type="submit">Criar</button>
+            <div className="button">
+                <button type="submit">Criar</button>
+                <PlusCircle size={20} />
+            </div>
         </Search>  
     )
 }

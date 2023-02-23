@@ -1,4 +1,4 @@
-import TaskBox from "../Task/TaskBox"
+import TaskBox from "../TaskBox/TaskBox"
 import TaskSection from "./Styles"
 
 function TaskArea(){

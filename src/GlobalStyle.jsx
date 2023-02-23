@@ -11,5 +11,8 @@ const GlobalStyle = createGlobalStyle`
     body{
         background-color: #1A1A1A;
     }
+    button{
+        background: transparent;
+    }
 `
 export default GlobalStyle

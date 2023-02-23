@@ -20,13 +20,23 @@ const Search = styled.form`
         resize: none;
     }
 
-    button {
+    .button {
+        display: flex;
+        align-items: center;
+        text-align: center;
         background-color: #1E6F9F;
         padding: 1rem;
+        border-radius: 0.5rem;
+        color: #F2F2F2;
+    }
+
+    .button button{
         font-family: "Inter", sans-serif;
         font-weight: 700;
+        font-size: 14px;
         color: #F2F2F2;
-        border-radius: 0.5rem;
+        margin-right: 0.5rem;
     }
+
 `
 export default Search

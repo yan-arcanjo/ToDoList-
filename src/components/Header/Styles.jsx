@@ -7,8 +7,9 @@ const HeaderSection = styled.header`
     line-height: 3rem;
     display: flex;
     justify-content: center;
+    gap: 0.75rem;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #4EA8DE;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
@@ -16,6 +17,7 @@ const HeaderSection = styled.header`
     strong{
         color: #5E60CE;
     }
+
 `
 
 export default HeaderSection
