@@ -1,8 +1,8 @@
 import Task from "./Styles"
 
-function TaskBox(){
+function TaskBox({text}){
     return(
-        <Task>Hello</Task>
+        <Task><p>{text}</p></Task>
     )
 }
 

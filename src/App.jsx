@@ -1,14 +1,13 @@
 import Header from "./components/Header/Header";
-import SearchArea from "./components/SearchArea/SearchArea";
-import TaskArea from "./components/TaskArea/TaskArea";
+import AddTask from "./components/AddTask/AddTask";
 import Section from "./Styles";
 
 function App() {
+
   return (
     <Section>
       <Header/>
-      <SearchArea/>
-      <TaskArea classname="tasks"/>
+      <AddTask/>
     </Section>
     
   )
